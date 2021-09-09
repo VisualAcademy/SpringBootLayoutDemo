@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" layout:decorate="shared/_layout">
+<body>
+    <div layout:fragment="content">
+        내용만 들어오는 곳
+    </div>
+
+    <th:block layout:fragment="script">
+        <script th:src="@{/js/site.js}"></script>
+    </th:block>
+</body>
+</html>
